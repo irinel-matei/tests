@@ -1,0 +1,9 @@
+D:\Dropbox\Work\F#\Test\Test\bin\Debug\Test.exe.config
+D:\Dropbox\Work\F#\Test\Test\bin\Debug\Test.XML
+D:\Dropbox\Work\F#\Test\Test\bin\Debug\Test.exe
+D:\Dropbox\Work\F#\Test\Test\bin\Debug\Test.pdb
+D:\Dropbox\Work\F#\Test\Test\bin\Debug\FSharp.Core.dll
+D:\Dropbox\Work\F#\Test\Test\bin\Debug\FSharp.Core.xml
+D:\Dropbox\Work\F#\Test\Test\obj\Debug\Test.fsprojResolveAssemblyReference.cache
+D:\Dropbox\Work\F#\Test\Test\obj\Debug\Test.exe
+D:\Dropbox\Work\F#\Test\Test\obj\Debug\Test.pdb
