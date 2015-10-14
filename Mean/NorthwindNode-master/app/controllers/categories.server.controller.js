@@ -10,6 +10,15 @@ var mongoose = require('mongoose'),
 
 var crud = require('./crud.server.controller')('Category', 'name');
 
+crud.dynamicImage = function(req, res) {
+  //res.json('test');
+var path = require("path");
+
+
+
+ res.sendFile( path.resolve(__dirname  + "/../../public/small.jpg"));
+};
+
 crud.readPaging = function(req, res) {
 			
 			var query = {};

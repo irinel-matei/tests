@@ -12,6 +12,9 @@ module.exports = function(app) {
     app.route('/categories/:page/:itemsPerPage')
 		.get(apiAuth, users.requiresLogin, categories.readPaging);
 
+    app.route('/dynamicImage')
+		.get(apiAuth, users.requiresLogin, categories.dynamicImage);
+
 	app.route('/categories/:categoryId')
 		.get(apiAuth, users.requiresLogin, categories.read)
 		.put(apiAuth, users.requiresLogin, categories.update)
